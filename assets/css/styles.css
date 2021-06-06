@@ -610,6 +610,9 @@ img {
 .swiper-pagination-bullet {
   outline: none;
 }
+.built__with {
+  font-weight: var(--font-semi-bold);
+}
 
 /*========= CONTACT ME =========*/
 .contact__container {
@@ -941,6 +944,7 @@ img {
   .contact__form {
     width: 460px;
   }
+
   /* .contact__inputs {
     grid-template-columns: repeat(2, 1fr);
   } */
