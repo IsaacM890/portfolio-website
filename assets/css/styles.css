@@ -392,6 +392,16 @@ img {
   background-color: transparent;
   color: var(--primary-color-alt);
 }
+.button--submit {
+  font-size: var(--medium-font-size);
+  font-family: var(--body-font);
+  border: none;
+}
+
+.button--submit:hover {
+  cursor: pointer;
+  background-color: var(--primary-color-alt);
+}
 
 /*========= ABOUT =========*/
 .about__img {
@@ -944,6 +954,7 @@ img {
   .contact__form {
     width: 460px;
   }
+
 
   /* .contact__inputs {
     grid-template-columns: repeat(2, 1fr);

@@ -356,35 +356,31 @@
                 </div>
             </div>
 
-            <form action="" class="contact__form grid">
+            <form action="https://formspree.io/f/xbjqonjz" method="POST" class="contact__form grid" >
                 <div class="contact__inputs grid">
                     <div class="contact__content">
-                        <label for="" class="contact__label">Name</label>
-                        <input type="text" class="contact__input">
+                        <label for="name" class="contact__label">Name</label>
+                        <input type="text" name="name" id="name" class="contact__input">
                     </div>
                     <div class="contact__content">
-                        <label for="" class="contact__label">Email</label>
-                        <input type="email" class="contact__input">
+                        <label for="email" class="contact__label">Email</label>
+                        <input type="email" name="email" id="email" class="contact__input">
                     </div>
                     <div class="contact__content">
-                        <label for="" class="contact__label">Phone</label>
-                        <input type="text" class="contact__input">
+                        <label for="phone" class="contact__label">Phone</label>
+                        <input type="text" name="phone" id="phone" class="contact__input">
                     </div>
                     <div class="contact__content">
-                        <label for="" class="contact__label">Message</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                        <label for="message" class="contact__label">Message</label>
+                        <textarea name="message" id="message" cols="0" rows="7" class="contact__input"></textarea>
                     </div>
 
                     <div>
-                        <a href="#" class="button button--flex">
-                            Send Message
-                            <i class="uil uil-message button__icon"></i>
-
-                        </a>
-
+                        <button type="submit" class="button button--submit">
+                            Send Message<i class="uil uil-message button__icon"></i>
+                        </button>
                     </div>
                 </div>
-
             </form>
         </div>
     </section>
